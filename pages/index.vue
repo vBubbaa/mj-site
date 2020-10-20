@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div v-for="post of posts" :key="post.slug">
-    <h2>{{ post.title }}</h2>
-    <nuxt-content :document="post.body" />
-    </div>
+    <li v-for="post of posts" :key="post.slug">
+      <NuxtLink :to="post.slug">{{ post.title }}</NuxtLink>
+    </li>
   </div>
 </template>
 
