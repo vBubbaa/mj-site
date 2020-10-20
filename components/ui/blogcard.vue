@@ -1,7 +1,7 @@
 <template>
   <div class="w-full p-4 m-4 border-b-4 border-red-600">
     <div class="text-3xl py-1">{{ blog.title }}</div>
-    <div class="py-1">Created: {{ blog.createdAt }}</div>
+    <div class="py-1">{{ date(blog.createdAt) }}</div>
     <div class="py-1">{{ blog.description }}</div>
 
     <nuxt-link
@@ -17,6 +17,12 @@ export default {
   name: "blogcard",
   props: {
     blog: Object
+  },
+  methods: {
+    date: function(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
+    }
   }
 };
 </script>

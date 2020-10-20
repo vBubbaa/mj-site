@@ -1,13 +1,22 @@
 <template>
-  <div class="container">
-    This is a blog post
-    <nuxt-content :document="post" />
+  <div class="container py-4">
+    <div class="w-full">
+      <postheader :post="post" />
+    </div>
+    <div class="w-full my-2">
+      <nuxt-content :document="post" />
+    </div>
   </div>
 </template>
 
 <script>
+import postheader from "../../components/ui/postheader";
+
 export default {
   name: "blogpost",
+  components: {
+    postheader
+  },
   async asyncData({ $content, params, error }) {
     let post;
     try {
@@ -62,7 +71,7 @@ export default {
 }
 .nuxt-content li {
   margin-left: 1.5rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   list-style-type: square;
 }
 </style>
