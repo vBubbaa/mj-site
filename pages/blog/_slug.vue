@@ -60,4 +60,9 @@ export default {
   padding-left: 2rem;
   color: gray;
 }
+.nuxt-content li {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+  list-style-type: square;
+}
 </style>
