@@ -1,4 +1,17 @@
-# mj-site
+# Michael James' Portoflio/Blog Site
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9d29d721-dd93-48af-88a2-18d0542183d0/deploy-status)](https://app.netlify.com/sites/happy-lalande-558e5a/deploys)
+
+## About
+
+My personal website showcases projects I have worked on, a web-development related blog, an about me page, and an online resume.
+
+## Technologies
+
+- NuxtJS
+- Nuxt-Content
+- Netlify CMS
+- Netlify Hosting
 
 ## Build Setup
 
