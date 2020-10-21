@@ -16,7 +16,7 @@ Along with library comparison, SteamComparer allows users to view a shareable pr
 
 We incorporate a Steamkit2 python [port](https://github.com/ValvePython/steam) which allows us to connect to the steam client itself. We use this client to have monitoring scripts which automatically get notified when an Steam app or package gets updated. We then take the change number and use an extensive script to process the Steam Client response about the App Details and save the application to our database, or update any fields that were changed.
 
-We have a backend has several foreign keys relating to various fields such as Developers, Publishers, etc. and allows us to have pages like the [Developer](https://steamcomparer.com/developers) page. Users get to extensively search and browse whatever steam has to offer, as well browse an app search page with advanced filters allowing user to find whatever app they wish in our growing database with 10s of thousands of apps.
+We have a backend has several foreign keys relating to various fields such as Developers, Publishers, etc. and allows us to have pages like the [Developer](https://steamcomparer.com/developers) page. Users get to extensively search and browse whatever steam has to offer, as well browse an app search page with advanced filters allowing user to find whatever app they wish in our growing database with tens of thousands of apps.
 
 ## Technologies
 

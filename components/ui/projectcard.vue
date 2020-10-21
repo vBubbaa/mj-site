@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="border-b-2 border-red-600 pb-4">
     <div class="text-4xl text-red-400">{{ project.title }}</div>
     <div class="text-xl">
       <i>{{ project.description }}</i>
