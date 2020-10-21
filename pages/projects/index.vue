@@ -1,6 +1,9 @@
 <template>
-  <div>
-    Projects
+  <div class="container py-4">
+    <div class="text-center text-4xl">
+      Projects
+    </div>
+    <hr class="border-t-4 border-red-600" />
   </div>
 </template>
 
