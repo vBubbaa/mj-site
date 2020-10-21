@@ -11,6 +11,7 @@
 
 <script>
 import blogcard from "../../components/ui/blogcard";
+
 export default {
   name: "blogindex",
   components: {

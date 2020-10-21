@@ -7,16 +7,22 @@
     <nuxt-link
       class="text-red-600 hover:font-bold"
       :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
-      >Read More</nuxt-link
     >
+      <cbutton text="Read More" />
+    </nuxt-link>
   </div>
 </template>
 
 <script>
+import cbutton from "../../components/ui/cbutton";
+
 export default {
   name: "blogcard",
   props: {
     blog: Object
+  },
+  components: {
+    cbutton
   },
   methods: {
     date: function(date) {
