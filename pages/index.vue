@@ -124,4 +124,10 @@ export default {
   padding-left: 0.5rem;
   list-style-type: square;
 }
+.nuxt-content pre code {
+  background: transparent;
+}
+.nuxt-content code {
+  background: #cecece;
+}
 </style>
