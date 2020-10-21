@@ -17,6 +17,19 @@ export default {
   components: {
     postheader
   },
+  head() {
+    return {
+      title: `Blog | ${this.post.title}`,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: `${this.post.description}`
+        }
+      ]
+    };
+  },
   async asyncData({ $content, params, error }) {
     let post;
     try {

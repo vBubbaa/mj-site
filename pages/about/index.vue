@@ -55,7 +55,21 @@
 
 <script>
 export default {
-  name: "aboutindex"
+  name: "aboutindex",
+  head() {
+    return {
+      title: "Michael James | About Me",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Read about me, and my journey of how I became the web applications developer I am today."
+        }
+      ]
+    };
+  }
 };
 </script>
 

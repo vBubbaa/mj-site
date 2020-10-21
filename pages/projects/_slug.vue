@@ -50,6 +50,19 @@ export default {
   components: {
     cbutton
   },
+  head() {
+    return {
+      title: `Project | ${this.project.title}`,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: `${this.project.description}`
+        }
+      ]
+    };
+  },
   async asyncData({ $content, params, error }) {
     let project;
     try {

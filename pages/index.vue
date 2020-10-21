@@ -25,6 +25,16 @@ export default {
     return {
       script: [
         { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ],
+      title: `Michael James | Web Applications Developer`,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "I am a passionate full-stack web applications developer with a history of developing rich and dynamic web applications."
+        }
       ]
     };
   }

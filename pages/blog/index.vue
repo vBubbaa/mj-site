@@ -17,6 +17,20 @@ export default {
   components: {
     blogcard
   },
+  head() {
+    return {
+      title: "Michael James | Blog",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "View Michael James' blog regarding all thing web development related"
+        }
+      ]
+    };
+  },
   async asyncData({ $content }) {
     const posts = await $content("blog").fetch();
 

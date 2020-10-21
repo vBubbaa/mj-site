@@ -138,7 +138,21 @@
 
 <script>
 export default {
-  name: "cvindex"
+  name: "cvindex",
+  head() {
+    return {
+      title: "Michael James | Resume",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Michael James' resume showcasing work experience, skills, and education."
+        }
+      ]
+    };
+  }
 };
 </script>
 

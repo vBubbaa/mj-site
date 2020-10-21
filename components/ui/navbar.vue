@@ -34,7 +34,7 @@
           Projects
         </nuxt-link>
         <nuxt-link
-          :to="{ name: 'cv' }"
+          :to="{ name: 'resume' }"
           class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray-400 mr-4"
         >
           Resume

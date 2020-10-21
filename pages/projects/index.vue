@@ -20,6 +20,19 @@ export default {
   components: {
     projectcard
   },
+  head() {
+    return {
+      title: "Michael James | Projects",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: "View Michael James' projects."
+        }
+      ]
+    };
+  },
   async asyncData({ $content }) {
     const projects = await $content("projects").fetch();
 
