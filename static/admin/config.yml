@@ -42,4 +42,10 @@ collections:
           required: false,
         }
       - { label: "Code", name: "code", widget: "string", required: false }
+      - {
+          label: "Live Site",
+          name: "livesite",
+          widget: "string",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
