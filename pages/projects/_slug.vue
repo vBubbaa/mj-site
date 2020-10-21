@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-6">
     <img
       :src="project.headerimage"
       :alt="project.title + '\'s header image.'"
