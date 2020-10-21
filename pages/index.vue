@@ -1,20 +1,21 @@
 <template>
-  <div class="w-full container py-4">
-    <div class="text-center text-4xl">Hi, I'm Michael James.</div>
-    <div class="text-center text-xl w-full mx-auto sm:w-3/4">
-      I am a passionate full-stack web applications developer with a history of
-      developing rich and dynamic web applications. I have a degree in
-      Information Technology from Arizona State University and have been
-      building web applications for several years.
+  <div class="flex h-screen justify-center items-center container py-4">
+    <div class="">
+      <div class="text-center text-4xl">Hi, I'm Michael James.</div>
+      <div class="text-center text-xl w-full mx-auto sm:w-3/4">
+        I am a passionate full-stack web applications developer with a history
+        of developing rich and dynamic web applications. I have a degree in
+        Information Technology from Arizona State University and have been
+        building web applications for several years.
+      </div>
+      <div class="mx-auto py-4">
+        <img
+          src="~/assets/images/me.jpg"
+          alt="Michael James' profile picture"
+          class=" rounded-full w-40 h-40 object-cover mx-auto"
+        />
+      </div>
     </div>
-    <div class="mx-auto py-4">
-      <img
-        src="~/assets/images/me.jpg"
-        alt="Michael James' profile picture"
-        class=" rounded-full w-40 h-40 object-cover mx-auto"
-      />
-    </div>
-    <div></div>
   </div>
 </template>
 
