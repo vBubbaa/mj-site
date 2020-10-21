@@ -6,7 +6,7 @@
         I am a passionate full-stack web applications developer with a history
         of developing rich and dynamic web applications. I have a degree in
         Information Technology from Arizona State University and have been
-        building web applications for several years.
+        coding and creating web applications for several years.
       </div>
       <div class="mx-auto py-4">
         <img
