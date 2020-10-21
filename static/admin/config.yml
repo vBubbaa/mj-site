@@ -48,4 +48,5 @@ collections:
           widget: "string",
           required: false,
         }
+      - { label: "Header Image", name: "headerimage", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
