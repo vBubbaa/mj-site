@@ -15,31 +15,8 @@
         >
       </div>
       <div><a target="_blank" href="https://github.com/vBubbaa">Github</a></div>
-    </div>
-
-    <div class="content">
-      <div class="font-bold">Professional Profile</div>
       <div>
-        Passionate full-stack web applications developer with a history of
-        developing rich and dynamic web applications. Experience with building
-        backends and restful APIs with technologies including Django and Django
-        Rest Framework as well as building frontend applications using VueJS and
-        NuxtJS.
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="font-bold">Education</div>
-      <div>
-        <div>Information Technology (B.S) 2020</div>
-        <div>Arizona State University</div>
-        <div>
-          <b>Relevant Courses</b>: Core Data Structures with Object Oriented
-          Programming, Principles of Programming with Java, Shell and Script
-          Programming with Unix, Foundations of Information Technology and
-          Computer System Security, Web Programming, Information System
-          Security, Web Design and Development
-        </div>
+        *Willing to relocate anywhere in the US
       </div>
     </div>
 
@@ -48,43 +25,67 @@
       <div>
         <ul>
           <li>
-            Programming and Scripting Languages: Python, Javascript, C#, HTML5,
-            CSS3
-          </li>
-          <li>
-            Backend Technologies: Django, Django Rest Framework, ASP.NET, SQLite
-          </li>
-          <li>
-            Frontend Technologies: VueJS, VueX, NuxtJS, Vuetify, Bootstrap,
-            JQuery
-          </li>
-          <li>Systems: Windows (XP, 7, 8, 10), Linux, MAC OS</li>
-          <li>Workflows: Jira / SCRUM / Trello</li>
-          <li>
-            Other: Adobe Photoshop, Microsoft Suite, Active Directory, SCCM,
-            JAMF, Git, Github
+            Python, JavaScript, C#, HTML, CSS, JQuery, Ajax, VueJS, NuxtJS,
+            Bootstrap, Vuetify, Django, Django Rest Framework, Django Rest
+            Authentication, ASP.NET, SQL, Jira / Scrum, JWT Authentication,
+            Photoshop
           </li>
         </ul>
       </div>
     </div>
 
     <div class="content">
+      <div class="font-bold">Education</div>
+      <div>
+        <div>
+          <i
+            ><u
+              >Information Technology (B.S) | Arizona State University | 2020</u
+            ></i
+          >
+        </div>
+        <div>
+          <ul>
+            <li>Emphasis in Computer Networking and Database Systems</li>
+            <li>Web Development courses using HTML, CSS, and Javascript</li>
+            <li>
+              Courses relating to cyber-security and Linux/Unix administration
+            </li>
+            <li>
+              Capstone project allowing users to use and Android phone to
+              control a mouse on screen controlled only with facial movements
+              including on screen clicking functionality
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content noborder">
       <div class="py-2">
         <div class="font-bold">Work Experience</div>
         <div>
           <div>
-            <i><u>Freelance Full Stack Web Developer | 3/19 – Current</u></i>
+            <i><u>Full Stack Web Developer | 3/19 – Current | Freelance</u></i>
           </div>
           <div>
             <ul>
               <li>
-                Mainly developing one large scale project which interacts with
-                the popular gaming platform Steam. Utilizes Django Rest
-                Framework backend with a NuxtJS frontend to build a dynamic and
-                rich website that tracks steam app information, and lets users
-                compare app libraries with friends.
+                Built and deployed Django and Django Rest Framework backends
               </li>
-              <li>SEO Audits and fixes for small websites</li>
+              <li>
+                Built and deployed dynamic and mobile responsive front-end web
+                applications with VueJS
+              </li>
+              <li>Utilized NuxtJS for server-side rendering</li>
+              <li>
+                Implemented the Vuetify material UI library to build out elegant
+                front-end web applications
+              </li>
+              <li>
+                Used OpenID to authenticate using the Steam platform using
+                Django Rest Authentication
+              </li>
             </ul>
           </div>
         </div>
@@ -99,37 +100,20 @@
           >
         </div>
         <div>
-          After working as a help desk technician, I was promoted to a full
-          stack web developer in the offices’ development team where I developed
-          and maintained several websites for Arizona State University.
           <ul>
             <li>
-              Developed and managed several Arizona State University websites
-              using ASP.NET, HTML, CSS, Javascript
+              Developed and managed several Arizona State University Herberger
+              Institute websites
+            </li>
+            <li>Worked with the ASP.NET backend to build views and models</li>
+            <li>
+              Used HTML, CSS, Javascript, and JQuery to build the front-end of
+              the webpages
             </li>
             <li>
-              Connected websites with the schools Active Directory using LDAP
+              Connected ASP.NET with active directory using the LDAP protocol
             </li>
-            <li>Updated and maintained the IT departments ticketing system</li>
           </ul>
-        </div>
-        <div>
-          <div class="font-bold py-2">Notable Projects:</div>
-          <div>
-            <ul>
-              <li>Active Directory integration with LDAP</li>
-              <li>
-                <a
-                  href="https://herbergerinstitute.asu.edu/research-and-initiatives/counteract"
-                  target="_blank"
-                  >Counteract</a
-                >: A project allowing students to submit actions of
-                counteracting acts of sexual violence via image or video
-                uploads. Includes image and video processing, profile
-                customization, and backend administrative options for faculty
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
@@ -171,5 +155,9 @@ li {
 .content {
   border-bottom: 1px solid #e53e3e;
   padding: 1rem 0;
+}
+
+.noborder {
+  border-bottom: none;
 }
 </style>
